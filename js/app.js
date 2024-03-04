@@ -2,7 +2,7 @@
 function productosCostoTotal() {
     let costoTotal = 0;
 
-    for (let i = 1; i <= 2; i++) {
+    for (let i = 1; i <= 2; i+=1) {
         let costoProducto = prompt("Ingrese el costo del Producto " + i + ":");
 
         while (costoProducto === "" ) {
